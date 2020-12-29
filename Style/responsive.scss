@@ -1,0 +1,174 @@
+@import '../Style/root.scss';
+@import '../Style/function.scss';
+@import '../Style/header.scss';
+/*----------------------------Responsive-------------------------------*/
+/*----------------------------Responsive 1125px-------------------------------*/
+@media only screen and (max-width: 1125px) {
+    body {
+        height: 275vh;
+    }
+    .container-main-img .container-img-carousel {
+        position: relative;
+        top: 10px;
+        left: 115px;
+        width: 83%;
+        height: 98%;
+    }
+    .header-left {
+        @include position_header(20px,9px);
+    }
+    .header-right {
+        @include position_header(160px,9px);
+    }
+    .header-middle-right {
+        display: none;
+    }
+    .main-nav .drop-right:hover .main-sub-nav .sub-nav {
+        position: absolute;
+        width: 70%;
+        left: 315px;
+    }
+    .main-nav .drop-right:hover .main-sub-nav .sub-nav .sub-nav-left {
+        position: absolute;
+        width: 90%;
+    }
+    .drop-right a span {
+        font-size: 15px;
+        white-space: nowrap;
+    }
+    .container-main-image .main-image img {
+        border-radius: 2.5%;
+        width: 280px;
+    }
+
+    .container-middle-image .main-image1 .title-art span {
+        font-size: 12px;
+    }
+
+    .container-middle-image .main-image1:hover .info-popup {
+        position: absolute;
+        left: 100px;
+    }
+    .container-main-img .container-img-carousel {
+        position: relative;
+        top: 10px;
+        left: 112px;
+        width: 80%;
+        height: 98%;
+    }
+        
+}
+/*----------------------------Responsive 1098px-------------------------------*/
+@media only screen and (max-width: 1098px) {
+   
+    .header-left {
+        @include position_header(15px,9px);
+    }
+    .header-right {
+        @include position_header(140px,9px);
+    }
+    .container-main-img .container-img-carousel {
+        position: relative;
+        top: 10px;
+        left: 85px;
+        width: 80%;
+        height: 98%;
+    }
+    
+}
+/*----------------------------Responsive 1091 px-------------------------------*/
+@media only screen and (max-width: 1074px) {
+    .header-left {
+        @include position_header(5px,9px);
+    }
+    .header-right {
+        @include position_header(130px,9px);
+    }
+    .header-bottom-title_icon span {
+        font-size: 12px; 
+    }
+    .header-bottom .header-bottom-title_menu a span {
+        font-size: 13px ;
+    }
+}
+/*----------------------------Responsive 1055 px-------------------------------*/
+@media only screen and (max-width: 1055px) {
+    .header-left {
+        @include position_header(2px,9px);
+    }
+    .header-right {
+        @include position_header(100px,9px);
+    }
+    .main-nav .drop-right:hover .main-sub-nav .sub-nav {
+        position: absolute;
+        left: 280px;
+    }
+    .drop-right a span {
+        font-size: 12px;
+        white-space: nowrap;
+    }
+}
+/*----------------------------Responsive 1018 px-------------------------------*/
+@media only screen and (max-width: 1055px) {
+    .header-left {
+        @include position_header(0px,9px);
+    }
+    .header-right {
+        @include position_header(80px,9px);
+    }
+    
+}
+/*----------------------------Responsive 1000 px-------------------------------*/
+@media only screen and (max-width: 1000px) {
+   .header-left {
+      display: none;
+    }
+    .header-right {
+        display: none;
+    }
+    .header-top {
+        display: none;
+    }
+    .header-middle-left {
+        position: absolute;
+        top: -57px;
+        left: 20px;
+        z-index: 610;
+    }
+    .header-middle-left-bblogo a .bblogo-hamburger{
+        //display: none;
+        display: block;
+        position: absolute;
+        width: 15%;
+        height: 68%;
+    }
+    .block-main-menu-hidden {
+       // display: none;
+        position: absolute;
+        position: fixed;
+        width: 30%;
+        height: 800px;
+        left: 100px;
+        top: 40px;
+        background: white;
+        box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 1px, rgba(0, 0, 0, 0.07) 0px 2px 2px, rgba(0, 0, 0, 0.07) 0px 4px 4px, rgba(0, 0, 0, 0.07) 0px 8px 8px, rgba(0, 0, 0, 0.07) 0px 16px 16px;
+        z-index: 5;
+    }
+    .container-main-image .main-image img {
+        border-radius: 2.5%;
+        width: 240px;
+    }
+    .container-middle-image .main-image1 .title-art span {
+        font-size: 10px;
+    }
+}
+
+/*
+
+/*----------------------------End Responsive-------------------------------*/
+/*----------------------------Responsive 980 px-------------------------------*/
+@media only screen and (min-width: 1001px) {
+    .block-main-menu-hidden { 
+        display: none;
+    }
+}

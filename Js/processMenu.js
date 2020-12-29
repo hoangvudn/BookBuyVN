@@ -1,0 +1,23 @@
+$(document).ready(function(){
+    $("#linkSubComic").click(function(){
+        $("#groupComic").slideToggle('slow');
+    })
+    $("#linkSubPaintTool").click(function(){
+        $("#groupPaintTool").slideToggle('slow');
+    })
+    $("#linkSubTechnologyAccessories").click(function(){
+        $("#groupTechnologyAccessories").slideToggle('slow');
+    })
+    $("#linkSubMakeUp").click(function(){
+        $("#groupMakeUp").slideToggle('slow');
+    })
+    $("#linkSubGift").click(function(){
+        $("#groupGift").slideToggle('slow');
+    })
+    $("#linkSubFashion").click(function(){
+        $("#groupFashion").slideToggle('slow');
+    })
+    $("#linkMenuHamburger").click(function(){
+        $("#block-main-menu-hidden").slideToggle('slow');
+    })
+})

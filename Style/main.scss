@@ -1,0 +1,446 @@
+.container-main {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    top: 42px;
+    justify-content: space-between;
+    width: 100%;
+    height: 55%;
+}
+/*---------------------MAIN NAV--------------------------*/
+.container-main .container-nav {
+    display: flex;
+    width: 28.3%;
+    height: 100%;
+    background: white;
+    /*border: 1px solid blue; */
+}
+/*---------------------ARROW------------------------*/
+
+/*------------------END---ARROW------------------------*/
+.container-main .container-nav .main-nav{
+    width: 99%;
+    height: 99.5%;
+
+   /* border: 1px solid blue;*/
+}
+.container-main .container-nav ul {
+    display: flex;
+    flex-direction: column;
+    margin-top: 8px;
+    width: 99%;
+    height: 91%;
+   /* border: 1px dashed red;*/
+
+}
+.container-main .container-nav .main-nav ul li{
+   width: 100%;
+   height: 100%;
+   padding-left: 60px;
+}
+.container-main .container-nav .main-nav ul li a{
+    position: relative;
+    width: 99.9%;
+    height: 100%;
+}
+.container-main .container-nav .main-nav ul li a:hover{
+   text-decoration: none;
+}
+.container-main .container-nav .main-nav ul li a img {
+    width: 17px;
+    height: 18px;
+}
+.container-main .container-nav .main-nav ul li a .arrow-ico {
+    position: absolute;
+    left: 274px;
+    top: -2px;
+    width: 10px;
+    height: 10px;
+    opacity: 0.3;
+}
+.container-main .container-nav .main-nav ul li a .arrow-ico:hover img {
+    width: 250px;
+    opacity: 0.9;
+}
+.container-main .container-nav .main-nav ul li a .arrow-ico img{
+    width: 100%;
+    height: 80%;
+}
+.container-main .container-nav .main-nav ul li a span {
+    padding-left: 10px;
+}
+/*-------------------END--MAIN NAV------------------------------*/
+    /*---------------------SUB NAV--------------------------*/
+/*.main-sub-nav {
+   width: 700px;
+   height: 100vh;
+   position: absolute;
+   left: 300px;
+   background: red;
+   z-index: 99999;
+   //display: none;
+}    */
+
+.drop-right .sub-nav ul {
+    display: none;
+}
+/*.main-sub-nav .sub-nav {
+    width: 100%;
+    background: blue;
+    z-index: 5555;
+}*/
+.main-nav ul li:hover a span {
+    color: orangered;
+}
+.drop-right:hover .main-sub-nav .sub-nav .sub-nav-left {
+    display: flex;
+    cursor: pointer;
+    flex-direction: column;
+    position: absolute;
+    color: white;
+    //width: 258%;
+   // height: 48vh;   
+    //background: white;
+    z-index: 99999;
+}
+.drop-right:hover .main-sub-nav .sub-nav .sub-nav-right {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+   // width: 258%;
+    //height: 48vh;   
+   // background: white;
+   z-index: 99999;
+}
+.main-nav .drop-right:hover .main-sub-nav .sub-nav {
+    display: flex;
+    //justify-content: space-around;
+    position: absolute;
+    left: 390px;
+    top: 0px;
+    width: 870px;
+    height: 340px;
+    background: white;
+    box-shadow: 2px 2px 2px grey;
+    z-index: 9999999;
+}
+
+.drop-right:hover .main-sub-nav .sub-nav .sub-nav-left {
+    display: absolute;
+    left: 2px;
+} 
+.drop-right:hover .main-sub-nav .sub-nav .sub-nav-right {
+    display: absolute;
+    left: 180px;
+}
+
+.container-main .container-nav .main-nav .drop-right .sub-nav .sub-nav-left li {
+    position: relative;
+    left: -70px;
+    font-size: smaller;
+    color: black;
+    width: 500px;
+    height: 28px;
+}
+
+.container-main .container-nav .main-nav .drop-right .sub-nav .sub-nav-left li a{
+     color: gray;
+}
+.container-main .container-nav .main-nav .drop-right .sub-nav .sub-nav-left li a:hover{
+    color: orangered;
+}
+
+.container-main .container-nav .main-nav .drop-right .sub-nav .sub-nav-right li {
+    position: relative;
+    left: -70px;
+    font-size: smaller;
+    width: 500px;
+    height: 28px;
+}
+.container-main .container-nav .main-nav .drop-right .sub-nav .sub-nav-right li a{
+    color: gray;
+}
+.container-main .container-nav .main-nav .drop-right .sub-nav .sub-nav-right li a:hover{
+   color: orangered;
+}
+.drop-right .main-sub-nav .sub-nav .menu-img {
+   display: none;
+}
+
+.drop-right:hover .main-sub-nav .sub-nav .menu-img {
+    position: absolute;
+    display: flex;
+    z-index: 9999999;
+    right: 2px;
+}
+.drop-right:hover .main-sub-nav .sub-nav .menu-img .img1 {
+    position: relative;
+    left: -50px;
+    top: 17px;
+}
+.drop-right:hover .main-sub-nav .sub-nav .menu-img .img2 {
+    position: relative;
+    height: 50%;
+    top: 17px;
+}
+.drop-right:hover .main-sub-nav .sub-nav .menu-img .img2 img{
+    position: relative;
+    height: 250px;
+    top: 17px;
+}
+    /*---------------------END SUB NAV--------------------------*/
+/*----------------------IMAGE CAROUSEL--------------------------*/
+.container-main .container-img {
+    left: 20px;
+    width: 70.5%;
+    height: 100%;
+    /*background: palevioletred;
+    border: 1px solid green;*/
+}
+.container-main .container-img .container-img-carousel {
+    width: 90%;
+    height: 98%;
+}
+.container-main .container-img .container-img-carousel #carouselExampleControls .carousel-inner .carousel-item img {
+    margin-top: 2px;
+    margin-left: 7px;
+    width: 95%;
+    height: 54vh;
+}
+
+/*------------------END----IMAGE CAROUSEL--------------------------*/
+/*----------------------MAIN IMAGE-------------------------------*/
+#main {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; 
+    top: 0px;
+}
+.container-main-image {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    height: 250px;
+    //margin: 0 auto;
+}
+.container-main-image .main-image {
+    display: flex;
+    margin-left: 3px;
+    width: 40%;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+}
+.container-main-image .main-image img {
+    border-radius: 2.5%;
+    width: 100%;
+}
+
+.container-middle-image {
+    position: relative;
+    //padding-top: 10px;
+    //top: 2px;
+    left: -5px;
+    display: flex;
+    justify-content: space-between;
+    width: 81%;
+    height: 170px;
+    background: white;
+    margin-bottom:120px;
+    box-shadow: 1px white;
+}
+.container-middle-image .main-image1 {
+    position: relative;
+    background: white ;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    width: 24%;
+    height: 280px;
+    /*box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;*/
+    box-shadow: rgba(50, 50, 105, 0.15) 0px 2px 5px 0px, rgba(0, 0, 0, 0.05) 0px 1px 1px 0px;
+}
+.container-middle-image .main-image1 a {
+    position: relative;
+    top: 10px;
+    width: 76%;
+    height: 75%;
+}
+.container-middle-image .main-image1 a img {
+    width: 100%;
+    height: 100%;
+    box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+    border: none;
+} 
+/*.container-middle-image .main-image1 span{
+   position: absolute;
+   top: 5px;
+   left: 10px;  
+}*/
+.container-middle-image .main-image1 .title-art {
+    position: absolute;
+    text-align: left;
+    top: 0px;
+    width: 100%;
+    background: black;
+    opacity: 0.2;
+}
+.container-middle-image .main-image1 .title-art span {
+    text-align: center;
+    //margin: 200px auto;
+    margin-left: 5px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+
+    /*margin-top: 40px;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    //color: purple;  
+    text-align: center;
+    letter-spacing: 2.5px;
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ff00de, 0 0 70px #ff00de, 0 0 80px #ff00de, 0 0 100px #ff00de, 0 0 150px #ff00de;
+    /*text-shadow: 3px 3px 20px blue,
+    -2px 10px 30px blue;*/
+}
+.container-middle-image .main-image1 .price-title {
+   position: relative;
+   top: 20px;
+}
+.container-middle-image .main-image1 .info-popup .triangle-left {
+    position: absolute;
+    left: -15px;
+    width: 0;
+	height: 0;
+	border-top: 7px solid transparent;
+	border-right: 15px solid whitesmoke;
+	border-bottom: 7px solid transparent;
+    z-index: 12;
+}
+.container-middle-image .main-image1 .price-title span:first-child {
+    color: orange;
+}
+.container-middle-image .main-image1 .price-title span:last-child {
+   font-size: 12px;
+   color: lightgray;
+}
+.container-middle-image .main-image1 .info-popup {
+    display: none;
+}
+.container-middle-image .main-image1 .info-popup .info-buy-popup {
+    position: relative;
+    top: 20px;
+    width: 78%;
+    display: flex;
+    flex-direction: column;
+}
+.container-middle-image .main-image1 .info-popup .info-buy-popup input {
+    margin-bottom: 10px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    background: purple;
+}
+.container-middle-image .main-image1 .info-popup .info-buy-popup input:hover {
+    background: limegreen;
+}
+.container-middle-image .main-image1:hover .info-popup {
+   position: absolute;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   left: 170px;
+   background: white;
+   box-shadow: rgba(17, 17, 26, 0.05) 0px 4px 16px, rgba(17, 17, 26, 0.05) 0px 8px 32px;
+   opacity: 0.9;
+   width: 200px;
+   height: 300px;
+   border-radius: 8px;
+   z-index: 10;
+}
+.container-middle-image .main-image1 .info-popup span:first-child {
+    position: relative;
+    top: -30px;
+    font-size: 15px;
+ }
+.container-middle-image .main-image1 .info-popup .content-popup {
+    position: relative;
+    top: -25px;
+    margin: 0 5px;
+    font-size: 10px;
+ }
+.container-main-img .container-img-carousel {
+    position: relative;
+    top: 10px;
+    left: 123px;
+    width: 81%;
+    height: 98%;
+}
+.container-main-img .container-img-carousel #carouselExampleControls .carousel-inner .carousel-item img {
+    margin-top: 30px;
+    margin-left: 7px;
+    width: 30%;
+    height: 25vh;
+}
+//-----------------------------------------------------------------------------------
+//------------------------------ADVERTISING FIXED CONER--------------------------------
+.ad-popup {
+  position: relative;
+  position: fixed;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: purple;
+  right: 0px;
+  bottom: 0px;
+  width: 15%;  
+  height: 80px;
+  border-radius: 10px;
+  opacity: 0.8;
+}
+.ad-popup label {
+  font-size: 12px;
+ 
+}
+.ad-popup input {
+  position: relative;
+  height: 18px;
+  width: 82%;
+  top: -5px;
+  border-radius: 5px;
+  border: none;
+} 
+.ad-popup .sex {
+    position: relative;
+    display: flex; 
+    top: -5px;
+}
+.ad-popup .sex div {
+    position: relative;
+    margin-top: 5px;
+    padding: 3px;
+    background: lightgreen;
+    border-radius: 7px;
+}
+.ad-popup .sex div a {
+   color: white;
+}
+//-----------------------------------------------------------------------------------
+
+/*#main {
+    width: 100%;
+    height: 50vh;
+}*/
+/*.container-main-image .main-image span {
+    width: 25%;
+}*/
+/*------------------END----MAIN IMAGE---------------------------*/

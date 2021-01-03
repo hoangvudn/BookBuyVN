@@ -979,6 +979,40 @@ body {
   color: white;
 }
 
+.containerMainPaintTool {
+  position: relative;
+  top: 20px;
+  width: 81.1%;
+  height: 600px;
+  margin: 0 auto;
+  left: -6px;
+  border: 1px solid black;
+  background: #ff00de;
+}
+.containerMainPaintTool__mainTitle {
+  position: absolute;
+  left: 15px;
+  width: 100% !important;
+  height: 35px !important;
+}
+.containerMainPaintTool__titleLeft {
+  border: 1px solid black;
+}
+.containerMainPaintTool__titleLeftMenu {
+  border: 1px solid white;
+}
+.containerMainPaintTool__titleRight {
+  border: 1px solid white;
+}
+.containerMainPaintTool__list {
+  display: flex;
+  flex: row;
+  justify-content: flex-end;
+}
+.containerMainPaintTool__item {
+  padding: 4px 20px;
+}
+
 /*#main {
     width: 100%;
     height: 50vh;
@@ -1699,7 +1733,7 @@ body {
   }
 }
 /*
-/*----------------------------Responsive 300 px-------------------------------*/
+/*----------------------------Responsive 450 px-------------------------------*/
 @media only screen and (max-width: 450px) {
   .header-middle-left .header-middle-left-search .search-input {
     position: absolute;

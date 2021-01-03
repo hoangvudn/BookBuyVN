@@ -435,7 +435,43 @@
    color: white;
 }
 //-----------------------------------------------------------------------------------
-
+//--------------------------------MAIN PAINT TOOL------------------------------------
+.containerMainPaintTool {
+    position: relative;
+    top: 20px;
+    width: 81.1%;
+    height: 600px;
+    margin: 0 auto;
+    left: -6px;
+    border: 1px solid black;
+    background: #ff00de;
+    &__mainTitle {
+        position: absolute;
+        left: 15px;
+        width: 100% !important; 
+        height: 35px !important;
+    }
+    &__titleLeft {
+       
+        border: 1px solid black;
+    }
+    &__titleLeftMenu {
+        border: 1px solid white;
+    }
+    &__titleRight {
+       
+        border: 1px solid white;
+    }
+    &__list {
+        display: flex;
+        flex: row;
+        justify-content: flex-end;
+    }
+    &__item {
+        padding: 4px 20px;
+    }
+}
+//------------------------------END MAIN PAINT TOOL----------------------------------
 /*#main {
     width: 100%;
     height: 50vh;

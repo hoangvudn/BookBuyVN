@@ -983,34 +983,74 @@ body {
   position: relative;
   top: 20px;
   width: 81.1%;
-  height: 600px;
+  height: 500px;
   margin: 0 auto;
   left: -6px;
   border: 1px solid black;
-  background: #ff00de;
 }
 .containerMainPaintTool__mainTitle {
   position: absolute;
   left: 15px;
   width: 100% !important;
-  height: 35px !important;
-}
-.containerMainPaintTool__titleLeft {
-  border: 1px solid black;
+  height: 40px !important;
+  border-bottom: 1px solid gray;
 }
 .containerMainPaintTool__titleLeftMenu {
+  position: absolute;
+  top: 7px;
   border: 1px solid white;
 }
-.containerMainPaintTool__titleRight {
-  border: 1px solid white;
+.containerMainPaintTool__titleLeftMenuText {
+  font-family: "Montserrat", sans-serif !important;
 }
 .containerMainPaintTool__list {
   display: flex;
   flex: row;
   justify-content: flex-end;
+  margin-top: 4px;
 }
 .containerMainPaintTool__item {
+  font-family: "Montserrat", sans-serif !important;
   padding: 4px 20px;
+  color: gray;
+  font-size: 15px;
+}
+.containerMainPaintTool__item--second {
+  border-left: 1px solid gray;
+  border-right: 1px solid gray;
+}
+.containerMainPaintTool__link:hover {
+  text-decoration: none;
+  color: orangered;
+}
+.containerMainPaintTool__link:hover .containerMainPaintTool__item {
+  color: orangered;
+}
+.containerMainPaintTool__mainContent {
+  width: 100%;
+  height: 395px;
+}
+.containerMainPaintTool__mainContentLeft {
+  position: absolute;
+  top: 40px;
+  width: 30%;
+  height: 90%;
+}
+.containerMainPaintTool__mainContentLeftImg {
+  width: 100%;
+  height: 100%;
+}
+.containerMainPaintTool__mainContentRight {
+  position: absolute;
+  top: 40px;
+  right: 0px;
+  width: 70%;
+  height: 90%;
+  border: 1px solid black;
+}
+.containerMainPaintTool__mainContentRightCarousel {
+  width: 100%;
+  height: 100%;
 }
 
 /*#main {

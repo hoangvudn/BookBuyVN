@@ -440,36 +440,77 @@
     position: relative;
     top: 20px;
     width: 81.1%;
-    height: 600px;
+    height: 500px;
     margin: 0 auto;
     left: -6px;
     border: 1px solid black;
-    background: #ff00de;
+
     &__mainTitle {
         position: absolute;
         left: 15px;
         width: 100% !important; 
-        height: 35px !important;
-    }
-    &__titleLeft {
-       
-        border: 1px solid black;
+        height: 40px !important;
+        border-bottom: 1px solid gray;
     }
     &__titleLeftMenu {
+        position: absolute;
+        top: 7px;
         border: 1px solid white;
     }
-    &__titleRight {
-       
-        border: 1px solid white;
+    &__titleLeftMenuText{
+        font-family: 'Montserrat', sans-serif !important;
     }
     &__list {
         display: flex;
         flex: row;
         justify-content: flex-end;
+        margin-top: 4px;
     }
     &__item {
+        font-family: 'Montserrat', sans-serif !important;
         padding: 4px 20px;
+        color: gray;
+        font-size: 15px;
+        &--second {
+            border-left: 1px solid gray;
+            border-right: 1px solid gray;
+        }
     }
+    &__link:hover {
+        text-decoration: none;
+        color: orangered;
+    }
+    &__link:hover &__item {
+        color: orangered;
+    }
+    &__mainContent {
+       width: 100%;
+       height: 395px;
+    
+    }
+    &__mainContentLeft {
+       position: absolute;
+       top: 40px;
+       width: 30%; 
+       height: 90%;
+    }
+    &__mainContentLeftImg {
+       width: 100%;
+       height: 100%;
+    }
+    &__mainContentRight {
+        position: absolute;
+        top: 40px;
+        right: 0px;
+        width: 70%; 
+        height: 90%;
+        border: 1px solid black;
+    }
+    &__mainContentRightCarousel {
+        width: 100%;
+        height: 100%;
+    }
+
 }
 //------------------------------END MAIN PAINT TOOL----------------------------------
 /*#main {
